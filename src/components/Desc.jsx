@@ -12,7 +12,7 @@ export default function Intro() {
           </div>
           <div className="w-[150px] md:w-[250px] h-[150px] md:h-[250px] mt-10 md:mt-0 mx-auto">
             <img
-              src="/public/picture2.jpeg"
+              src="src/assets/Image/picture2.jpeg"
               className="rounded-[50%] border-orange-400 border-4"
             />
           </div>
