@@ -2,7 +2,7 @@ export default function Projects() {
   const works = [
     {
       id: 1,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeitGv7vPj2mPXRWNbUqD4nNWEol2S2-gFodVeYj0xNyF9O2LLQxWQYcl_bTnQFHnr7yM&usqp=CAU",
+      img: "/Image/tic-tac-toe.png",
       name: "Tic-Tac-Toe",
       desc: "this is my tic-tac-toe project using html,css and javascript",
       link: "https://github.com/NishuRawat06/Tic-Tac-Toe",
