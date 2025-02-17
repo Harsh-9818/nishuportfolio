@@ -1,4 +1,6 @@
+import projecttwo from "src/assets/Image/rock-paper-scissors.jpg";
 export default function Projects() {
+
   const works = [
     {
       id: 1,
@@ -9,7 +11,7 @@ export default function Projects() {
     },
     {
       id: 2,
-      img: "src/assets/Image/rock-paper-scissors.jpg",
+      img: {projecttwo},
       name: "Stone-Paper-Scissor",
       desc: "this is my stone-paper-scissor project using html,css and javascript",
       link: "https://github.com/NishuRawat06/stone-paper-scissor",
