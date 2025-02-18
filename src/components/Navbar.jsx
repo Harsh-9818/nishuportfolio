@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { useState } from "react";
 export default function Navbar() {
   const paths = ["/", "/about", "/techstack", "/projects", "/contact"];
-  const location=useLocation();
+  const location = useLocation();
   const [isopen, setIsOpen] = useState(false);
   const iconclick = () => {
     setIsOpen(!isopen);
@@ -26,11 +26,10 @@ export default function Navbar() {
               <div key={path}>
                 <Link
                   to={path}
-                  className={`hover:underline ${
-                    location.pathname === path
+                  className={`hover:underline ${location.pathname === path
                       ? "text-[#f49434] font-bold"
                       : "text-white"
-                  }`}
+                    }`}
                 >
                   {labels[index]}
                 </Link>
