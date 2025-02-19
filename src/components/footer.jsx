@@ -1,4 +1,3 @@
-
 export default function Footer() {
   return (
     <div className="w-full h-auto md:min-h-[150px] lg:min-h-[200px] flex flex-col md:flex-row items-center px-10 md:px-20 lg:px-24 justify-between border-t-2 border-white space-y-5 md:space-y-0 lg:gap-x-10 mt-6">
