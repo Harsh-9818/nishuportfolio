@@ -13,7 +13,7 @@ export default function About() {
             solutions.
             <br />
             <span className="text-2xl">
-              {" "}
+              <br></br>
               Let's connect and create something amazing!
             </span>
           </div>
